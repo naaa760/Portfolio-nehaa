@@ -1,7 +1,5 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import AInavigatorImg from "@/public/AI-navigator.png";
 import CrikNetImg from "@/public/CrickNet.png";
 import HealthImg from "@/public/Health.png";
@@ -39,7 +37,7 @@ export const experiencesData = [
     location: "Delhi, India",
     description:
       "ed React integration for graphical analysis, improving accuracy by 25%. export process, reducing time by 50% and integrating with accounting tools.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(FaReact),
     date: "05/2023 - 08/2023",
   },
   {
@@ -77,23 +75,13 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
   "Node.js",
-  "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
 ] as const;
