@@ -1,6 +1,6 @@
 "use client";
 
-import type { SectionName } from "@/lib/hooks";
+import { SectionName } from "@/lib/types";
 import React, { useState, createContext, useContext } from "react";
 
 type ActiveSectionContextProviderProps = {
@@ -8,7 +8,9 @@ type ActiveSectionContextProviderProps = {
 };
 
 type ActiveSectionContextType = {
-  activeSection: SectionName;
+  activeSection: SectionName;import { links } from "./data";
+
+  export type SectionName = (typeof links)[number]["name"];
   setActiveSection: React.Dispatch<React.SetStateAction<SectionName>>;
   timeOfLastClick: number;
   setTimeOfLastClick: React.Dispatch<React.SetStateAction<number>>;
