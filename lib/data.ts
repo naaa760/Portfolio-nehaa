@@ -3,6 +3,7 @@ import { FaReact } from "react-icons/fa";
 import AInavigatorImg from "@/public/AI-navigator.png";
 import CrikNetImg from "@/public/CrickNet.png";
 import HealthImg from "@/public/Health.png";
+import TravelAiImg from "@/public/Travel.png";
 
 export const links = [
   {
@@ -57,6 +58,7 @@ export const projectsData = [
       "I used React in the front-end. Used crew ai for building multiple AI agents and upstate API for generating responses. Firebase has been used for authentication",
     tags: ["React", "JavaScript", "SCSS", "HTML"],
     imageUrl: AInavigatorImg,
+    link: "https://ai-career-navigator1-p28l.vercel.app/",
   },
   {
     title: "CrickNet",
@@ -64,6 +66,7 @@ export const projectsData = [
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "TailwindCSS"],
     imageUrl: CrikNetImg,
+    link: "https://crick-net.vercel.app/",
   },
   {
     title: "HealthPulse",
@@ -71,6 +74,15 @@ export const projectsData = [
       "I used Created reusable React components and managed state using React Hooks for a dynamic admindashboard. Enhancing performance",
     tags: ["React", "TypeScript", "SQL", "Python", "Prisma"],
     imageUrl: HealthImg,
+    link: "https://health-pulse-beta.vercel.app/",
+  },
+  {
+    title: "Travel-AI",
+    description:
+      "Place Suggestions: Provides famous places using JavaScript and TypeScript. Real-Time Data: Fetches live info using APIs and Node.js.",
+    tags: ["React", "TypeScript", "APIs"],
+    imageUrl: TravelAiImg,
+    link: "https://travel-9wao37lkc-nehas-projects-5692135e.vercel.app/",
   },
 ] as const;
 
