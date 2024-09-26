@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import AInavigatorImg from "@/public/AI-navigator.png";
+import CrikNetImg from "@/public/CrickNet.png";
+import HealthImg from "@/public/Health.png";
 
 export const links = [
   {
@@ -62,25 +62,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "AI-navigator",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I used React in the front-end. Used crew ai for building multiple AI agents and upstate API for generating responses. Firebase has been used for authentication",
+    tags: ["React", "JavaScript", "SCSS", "HTML"],
+    imageUrl: AInavigatorImg,
   },
   {
-    title: "rmtDev",
+    title: "CrickNet",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    tags: ["React", "TypeScript", "TailwindCSS"],
+    imageUrl: CrikNetImg,
   },
   {
-    title: "Word Analytics",
+    title: "HealthPulse",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "I used Created reusable React components and managed state using React Hooks for a dynamic admindashboard. Enhancing performance",
+    tags: ["React", "TypeScript", "SQL", "Python", "Prisma"],
+    imageUrl: HealthImg,
   },
 ] as const;
 
