@@ -4,6 +4,7 @@ import AInavigatorImg from "@/public/AI-navigator.png";
 import CrikNetImg from "@/public/CrickNet.png";
 import HealthImg from "@/public/Health.png";
 import TravelAiImg from "@/public/Travel.png";
+import AnalyticsDashboardImg from "@/public/Analytics.png";
 
 export const links = [
   {
@@ -83,6 +84,15 @@ export const projectsData = [
     tags: ["React", "TypeScript", "APIs"],
     imageUrl: TravelAiImg,
     link: "https://travel-9wao37lkc-nehas-projects-5692135e.vercel.app/",
+  },
+
+  {
+    title: "Analytics Dashboard",
+    description:
+      "Analytics Dashboard used UpStash to see how many users visits on your sites and showing by the Graph Representation",
+    tags: ["TypeScript", "React", "Redis", "CSS"],
+    imageUrl: AnalyticsDashboardImg,
+    link: "https://drive.google.com/file/d/1za51S3aIFgG592uyHocPULSPoF8CKWwi/view?usp=drivesdk",
   },
 ] as const;
 
