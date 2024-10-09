@@ -5,6 +5,7 @@ import CrikNetImg from "@/public/CrickNet.png";
 import HealthImg from "@/public/Health.png";
 import TravelAiImg from "@/public/Travel.png";
 import AnalyticsDashboardImg from "@/public/Analytics.png";
+import MetaImg from "@/public/verse.png";
 
 export const links = [
   {
@@ -54,13 +55,23 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "AI-navigator",
+    title: "HealthPulse",
     description:
-      "I used React in the front-end. Used crew ai for building multiple AI agents and upstate API for generating responses. Firebase has been used for authentication",
-    tags: ["React", "JavaScript", "SCSS", "HTML"],
-    imageUrl: AInavigatorImg,
-    link: "https://ai-career-navigator1-p28l.vercel.app/",
+      "I used Created reusable React components and managed state using React Hooks for a dynamic admindashboard. Enhancing performance",
+    tags: ["React", "TypeScript", "SQL", "Python", "Prisma"],
+    imageUrl: HealthImg,
+    link: "https://health-pulse-beta.vercel.app/",
   },
+
+  {
+    title: "MetaVerse",
+    description:
+      "While developing this app, I learnt React project architecture, Clean Code practices, and Next.js 13 structure. You'll also enhance your skills in CSS with Tailwind, creating smooth animations and gradients using Framer Motion.",
+    tags: ["Next.js", "Framer Motion", "Tailwind CSS"],
+    imageUrl: MetaImg,
+    link: "https://meta-verse-flame.vercel.app/",
+  },
+
   {
     title: "CrickNet",
     description:
@@ -70,13 +81,14 @@ export const projectsData = [
     link: "https://crick-net.vercel.app/",
   },
   {
-    title: "HealthPulse",
+    title: "AI-navigator",
     description:
-      "I used Created reusable React components and managed state using React Hooks for a dynamic admindashboard. Enhancing performance",
-    tags: ["React", "TypeScript", "SQL", "Python", "Prisma"],
-    imageUrl: HealthImg,
-    link: "https://health-pulse-beta.vercel.app/",
+      "I used React in the front-end. Used crew ai for building multiple AI agents and upstate API for generating responses. Firebase has been used for authentication",
+    tags: ["React", "JavaScript", "SCSS", "HTML"],
+    imageUrl: AInavigatorImg,
+    link: "https://ai-career-navigator1-p28l.vercel.app/",
   },
+
   {
     title: "Travel-AI",
     description:
