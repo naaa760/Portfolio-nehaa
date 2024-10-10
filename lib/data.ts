@@ -6,6 +6,7 @@ import HealthImg from "@/public/Health.png";
 import TravelAiImg from "@/public/Travel.png";
 import AnalyticsDashboardImg from "@/public/Analytics.png";
 import MetaImg from "@/public/verse.png";
+import BrainImg from "@/public/brain.png";
 
 export const links = [
   {
@@ -70,6 +71,15 @@ export const projectsData = [
     tags: ["Next.js", "Framer Motion", "Tailwind CSS"],
     imageUrl: MetaImg,
     link: "https://meta-verse-flame.vercel.app/",
+  },
+
+  {
+    title: "BrainNods",
+    description:
+      "Create websites with sleek parallax effects and bento box layouts",
+    tags: ["React", "Tailwind.CSS", "Parallel Effects"],
+    imageUrl: BrainImg,
+    link: "https://brainnods.vercel.app/",
   },
 
   {
