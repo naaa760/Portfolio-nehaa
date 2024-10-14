@@ -7,6 +7,7 @@ import TravelAiImg from "@/public/Travel.png";
 import AnalyticsDashboardImg from "@/public/Analytics.png";
 import MetaImg from "@/public/verse.png";
 import BrainImg from "@/public/brain.png";
+import AskImg from "@/public/askany.png";
 
 export const links = [
   {
@@ -62,6 +63,15 @@ export const projectsData = [
     tags: ["React", "TypeScript", "SQL", "Python", "Prisma"],
     imageUrl: HealthImg,
     link: "https://health-pulse-beta.vercel.app/",
+  },
+
+  {
+    title: "AskAway",
+    description:
+      "I built AskAway, an AI-powered survey platform that transforms data into insights, enabling data-driven decisions for growth in sectors like healthcare and business.",
+    tags: ["React", "TypeScript", "Shadcn", "Claude AI"],
+    imageUrl: AskImg,
+    link: "https://market-research-survey-tool.vercel.app/",
   },
 
   {
@@ -125,7 +135,9 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Tailwind",
-  "MongoDB",
   "Express",
   "PostgreSQL",
+  "TRPC",
+  "NGINX",
+  "REDIS",
 ] as const;
