@@ -8,6 +8,7 @@ import AnalyticsDashboardImg from "@/public/Analytics.png";
 import MetaImg from "@/public/verse.png";
 import BrainImg from "@/public/brain.png";
 import AskImg from "@/public/askany.png";
+import SearchImg from "@/public/Search.png";
 
 export const links = [
   {
@@ -56,6 +57,15 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "SearchLio",
+    description:
+      "SearchEngine enables you to find clarity and significant results on a large scale by linking queries and results to the overarching objectives of your search.",
+    tags: ["React", "JavaScript", "Shadcn"],
+    imageUrl: SearchImg,
+    link: "https://searchlio.vercel.app/",
+  },
+
   {
     title: "HealthPulse",
     description:
@@ -130,7 +140,6 @@ export const projectsData = [
 
 export const skillsData = [
   "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
   "Node.js",
@@ -138,6 +147,5 @@ export const skillsData = [
   "Express",
   "PostgreSQL",
   "TRPC",
-  "NGINX",
-  "REDIS",
+  "ShadcnUI",
 ] as const;
