@@ -148,4 +148,10 @@ export const skillsData = [
   "PostgreSQL",
   "TRPC",
   "ShadcnUI",
+  "MongoDB",
+  "Prisma",
+  "Docker",
+  "NextAuth",
+  "Clerk",
+  "CI/CD",
 ] as const;
