@@ -4,11 +4,12 @@ import AInavigatorImg from "@/public/AI-navigator.png";
 import CrikNetImg from "@/public/CrickNet.png";
 import HealthImg from "@/public/Health.png";
 import TravelAiImg from "@/public/Travel.png";
-import AnalyticsDashboardImg from "@/public/Analytics.png";
+// import AnalyticsDashboardImg from "@/public/Analytics.png";
 import MetaImg from "@/public/verse.png";
 import BrainImg from "@/public/brain.png";
 import AskImg from "@/public/askany.png";
 import SearchImg from "@/public/Search.png";
+import IDEImg from "@/public/IDE.png";
 
 export const links = [
   {
@@ -64,6 +65,15 @@ export const projectsData = [
     tags: ["React", "JavaScript", "Shadcn"],
     imageUrl: SearchImg,
     link: "https://searchlio.vercel.app/",
+  },
+
+  {
+    title: "RefactorRealm",
+    description:
+      "**Refactor Realm** is an online IDE with multi-language support, customizable themes, smart output handling, webhook integration, and Free & Pro plans, built with Next.js 15, Convex, and Clerk.",
+    tags: ["Next.js", "TypeScript", "Convex", "Shadcn"],
+    imageUrl: IDEImg,
+    link: "https://refactor-realm-egpp.vercel.app/",
   },
 
   {
@@ -126,15 +136,6 @@ export const projectsData = [
     tags: ["React", "TypeScript", "APIs"],
     imageUrl: TravelAiImg,
     link: "https://travel-9wao37lkc-nehas-projects-5692135e.vercel.app/",
-  },
-
-  {
-    title: "Analytics Dashboard",
-    description:
-      "Analytics Dashboard used UpStash to see how many users visits on your sites and showing by the Graph Representation",
-    tags: ["TypeScript", "React", "Redis", "CSS"],
-    imageUrl: AnalyticsDashboardImg,
-    link: "https://drive.google.com/file/d/1za51S3aIFgG592uyHocPULSPoF8CKWwi/view?usp=drivesdk",
   },
 ] as const;
 
