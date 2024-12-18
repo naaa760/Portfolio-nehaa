@@ -7,6 +7,7 @@ import Link from "next/link";
 import { FaGithubSquare } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Intro() {
   return (
@@ -60,10 +61,12 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I am Neha Prasad.</span> I am a{" "}
-        <span className="font-bold">MERN developer</span>I like to working on{" "}
-        <span className="italic">Projects with teammates</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="text-lg font-nunito">
+          Hello, I am Neha Prasad. a software developer based in India. Next.js
+          developer. I like to work on building epic stuffs to explore more
+          about Next.Js and JavaScript. I'm all about exploring new tech and
+          creating impact.
+        </span>
       </motion.h1>
 
       <motion.div
@@ -112,6 +115,16 @@ export default function Intro() {
           {" "}
           Github
           <FaGithubSquare />
+        </a>
+
+        <a
+          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://x.com/nehaaaa_6"
+          target="_blank"
+        >
+          {" "}
+          Twitter
+          <FaXTwitter />
         </a>
       </motion.div>
     </section>
