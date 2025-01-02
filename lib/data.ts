@@ -10,6 +10,7 @@ import BrainImg from "@/public/brain.png";
 import AskImg from "@/public/askany.png";
 import SearchImg from "@/public/Search.png";
 import IDEImg from "@/public/IDE.png";
+import ThreadImg from "@/public/thread.png";
 
 export const links = [
   {
@@ -74,6 +75,15 @@ export const projectsData = [
     tags: ["Next.js", "TypeScript", "Convex", "Shadcn"],
     imageUrl: IDEImg,
     link: "https://refactor-realm-egpp.vercel.app/",
+  },
+
+  {
+    title: "ThreadLink",
+    description:
+      "This Next.js user profile feature uses server components for optimized data fetching and SEO, enhancing performance. Its modular design supports user-specific actions like follow status and liked posts, ensuring scalability and a seamless experience.",
+    tags: ["Next.js", "TypeScript", "React", "Shadcn", "Prisma", "postgres"],
+    imageUrl: ThreadImg,
+    link: "https://threadlink-6b9f.vercel.app/",
   },
 
   {
