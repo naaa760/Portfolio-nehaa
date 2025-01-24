@@ -1,12 +1,10 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
-import AInavigatorImg from "@/public/AI-navigator.png";
-import CrikNetImg from "@/public/CrickNet.png";
 import HealthImg from "@/public/Health.png";
 import TravelAiImg from "@/public/Travel.png";
-// import AnalyticsDashboardImg from "@/public/Analytics.png";
 import MetaImg from "@/public/verse.png";
-import BrainImg from "@/public/brain.png";
+import DataImg from "@/public/data.png";
+import TaskImg from "@/public/task.png";
 import AskImg from "@/public/askany.png";
 import SearchImg from "@/public/Search.png";
 import IDEImg from "@/public/IDE.png";
@@ -60,6 +58,34 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "DataCrew",
+    description:
+      "The client handles UI and user interactions, making API calls to the server. The server processes requests, manages business logic, and interacts with the database.",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "React",
+      "Nest.js",
+      "Shadcn",
+      "Prisma",
+      "postgres",
+      "framer-motion",
+      "lottie.json",
+    ],
+    imageUrl: DataImg,
+    link: "https://stackly-lsco.vercel.app/",
+  },
+
+  {
+    title: "SuperTask",
+    description:
+      "Help users track tasks efficiently Provide meaningful organization tools Make task management enjoyable Keep interface simple but powerful The project combines modern React patterns with practical functionality to create a productive task management experience. ",
+    tags: ["Next.js", "TypeScript", "React", "Shadcn", "Prisma", "postgres"],
+    imageUrl: TaskImg,
+    link: "https://tasktrek-mki2.vercel.app/",
+  },
+
+  {
     title: "SearchLio",
     description:
       "SearchEngine enables you to find clarity and significant results on a large scale by linking queries and results to the overarching objectives of your search.",
@@ -111,32 +137,6 @@ export const projectsData = [
     tags: ["Next.js", "Framer Motion", "Tailwind CSS"],
     imageUrl: MetaImg,
     link: "https://meta-verse-flame.vercel.app/",
-  },
-
-  {
-    title: "BrainNods",
-    description:
-      "Create websites with sleek parallax effects and bento box layouts",
-    tags: ["React", "Tailwind.CSS", "Parallel Effects"],
-    imageUrl: BrainImg,
-    link: "https://brainnods.vercel.app/",
-  },
-
-  {
-    title: "CrickNet",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "TailwindCSS"],
-    imageUrl: CrikNetImg,
-    link: "https://crick-net.vercel.app/",
-  },
-  {
-    title: "AI-navigator",
-    description:
-      "I used React in the front-end. Used crew ai for building multiple AI agents and upstate API for generating responses. Firebase has been used for authentication",
-    tags: ["React", "JavaScript", "SCSS", "HTML"],
-    imageUrl: AInavigatorImg,
-    link: "https://ai-career-navigator1-p28l.vercel.app/",
   },
 
   {
