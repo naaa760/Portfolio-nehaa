@@ -9,6 +9,7 @@ import AskImg from "@/public/askany.png";
 import SearchImg from "@/public/Search.png";
 import IDEImg from "@/public/IDE.png";
 import ThreadImg from "@/public/thread.png";
+import VocaImg from "@/public/voca.png";
 
 export const links = [
   {
@@ -57,6 +58,15 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "VocaVista",
+    description:
+      "This project is a Next.js web app featuring secure user authentication via Clerk and personalized AI using Google's Gemini. It uses a serverless PostgreSQL database (Neon) for secure, contextual user data storage. A custom onboarding flow and enterprise-grade security enable scalable, private AI-human collaboration.",
+    tags: ["Next.js", "TypeScript", "React", "Gemini", "Prisma", "Inngest"],
+    imageUrl: VocaImg,
+    link: "https://vocavista.vercel.app/",
+  },
+
   {
     title: "DataCrew",
     description:
