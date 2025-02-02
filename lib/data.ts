@@ -10,6 +10,7 @@ import SearchImg from "@/public/Search.png";
 import IDEImg from "@/public/IDE.png";
 import ThreadImg from "@/public/thread.png";
 import VocaImg from "@/public/voca.png";
+import StreamImg from "@/public/strm.png";
 
 export const links = [
   {
@@ -20,6 +21,11 @@ export const links = [
     name: "About",
     hash: "#about",
   },
+
+  {
+    name: "Video",
+    hash: "#video",
+  },
   {
     name: "Projects",
     hash: "#projects",
@@ -28,6 +34,7 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
+
   {
     name: "Experience",
     hash: "#experience",
@@ -84,6 +91,15 @@ export const projectsData = [
     ],
     imageUrl: DataImg,
     link: "https://stackly-lsco.vercel.app/",
+  },
+
+  {
+    title: "StreamiFy",
+    description:
+      "Streamify is a React-based music analytics dashboard showing total users, active users, total streams, revenue, and top artists. It includes charts for user growth, revenue sources, and top songs, plus a sortable and filterable table for recent streams.",
+    tags: ["React", "Next.js", "TypeScript", "Shadcn", "API Router", "Jest"],
+    imageUrl: StreamImg,
+    link: "https://streamify-1mgs.vercel.app/",
   },
 
   {
