@@ -22,6 +22,17 @@ export default function VideoSection() {
           className="w-full h-full rounded-lg shadow-lg"
         ></iframe>
       </div>
+
+      <br />
+
+      <div className="relative aspect-video">
+        <iframe
+          src="https://www.canva.com/design/DAGehQWtulM/fWM667t88eUpk71PuILgOQ/watch?utm_content=DAGehQWtulM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hbd052478ae"
+          frameBorder="0"
+          allowFullScreen
+          className="w-full h-full rounded-lg shadow-lg"
+        ></iframe>
+      </div>
     </motion.section>
   );
 }

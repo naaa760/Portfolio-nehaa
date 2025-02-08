@@ -11,6 +11,7 @@ import IDEImg from "@/public/IDE.png";
 import ThreadImg from "@/public/thread.png";
 import VocaImg from "@/public/voca.png";
 import StreamImg from "@/public/strm.png";
+import SnapImg from "@/public/snap.png";
 
 export const links = [
   {
@@ -72,6 +73,15 @@ export const projectsData = [
     tags: ["Next.js", "TypeScript", "React", "Gemini", "Prisma", "Inngest"],
     imageUrl: VocaImg,
     link: "https://vocavista.vercel.app/",
+  },
+
+  {
+    title: "VocaVista",
+    description:
+      "POSGRESTORE is a modern e-commerce platform with a React/TypeScript frontend and a Node.js/Express backend, using Zustand for state management, Neon PostgreSQL for data storage, and secure CRUD operations via a RESTful API.",
+    tags: ["React", "TypeScript", "POSTMAN", "Zustand", "Neon", "Arcjet"],
+    imageUrl: SnapImg,
+    link: "https://snapcart-r2tx.onrender.com/",
   },
 
   {
