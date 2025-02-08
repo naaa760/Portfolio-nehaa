@@ -76,7 +76,7 @@ export const projectsData = [
   },
 
   {
-    title: "VocaVista",
+    title: "SnapCart",
     description:
       "POSGRESTORE is a modern e-commerce platform with a React/TypeScript frontend and a Node.js/Express backend, using Zustand for state management, Neon PostgreSQL for data storage, and secure CRUD operations via a RESTful API.",
     tags: ["React", "TypeScript", "POSTMAN", "Zustand", "Neon", "Arcjet"],
