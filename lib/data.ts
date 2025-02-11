@@ -12,6 +12,8 @@ import ThreadImg from "@/public/thread.png";
 import VocaImg from "@/public/voca.png";
 import StreamImg from "@/public/strm.png";
 import SnapImg from "@/public/snap.png";
+import ChatImg from "@/public/chat.png";
+import cryptImg from "@/public/crypt.png";
 
 export const links = [
   {
@@ -69,10 +71,28 @@ export const projectsData = [
   {
     title: "VocaVista",
     description:
-      "This project is a Next.js web app featuring secure user authentication via Clerk and personalized AI using Google's Gemini. It uses a serverless PostgreSQL database (Neon) for secure, contextual user data storage. A custom onboarding flow and enterprise-grade security enable scalable, private AI-human collaboration.",
+      "This project is a Next.js web app featuring secure user authentication via Clerk and personalized AI using Google's Gemini. It uses a serverless PostgreSQL database (Neon) for secure, contextual user data storage.",
     tags: ["Next.js", "TypeScript", "React", "Gemini", "Prisma", "Inngest"],
     imageUrl: VocaImg,
     link: "https://vocavista.vercel.app/",
+  },
+
+  {
+    title: "Vexora",
+    description:
+      "This project is a Document Q&A system using the Gemma 2 9B model (via Groq) to answer questions about US Census PDFs. It employs RAG with FAISS vector storage and Google's AI embeddings, featuring a sleek Streamlit UI.",
+    tags: ["Python", "Groq", "Streamlit", "LLM"],
+    imageUrl: ChatImg,
+    link: "https://vexora-gdunc7gvtppuovsedw2g36.streamlit.app/",
+  },
+
+  {
+    title: "Dwellex",
+    description:
+      "This is a decentralized real estate marketplace built on blockchain technology. The platform allows users to buy, sell, and manage real estate properties using cryptocurrency (ETH). The project features a modern",
+    tags: ["React", "Solidity", "etherum"],
+    imageUrl: cryptImg,
+    link: "https://dwellex.vercel.app/",
   },
 
   {
@@ -96,8 +116,6 @@ export const projectsData = [
       "Shadcn",
       "Prisma",
       "postgres",
-      "framer-motion",
-      "lottie.json",
     ],
     imageUrl: DataImg,
     link: "https://stackly-lsco.vercel.app/",
@@ -106,7 +124,7 @@ export const projectsData = [
   {
     title: "StreamiFy",
     description:
-      "Streamify is a React-based music analytics dashboard showing total users, active users, total streams, revenue, and top artists. It includes charts for user growth, revenue sources, and top songs, plus a sortable and filterable table for recent streams.",
+      "Streamify is a React-based music analytics dashboard showing total users, active users, total streams, revenue, and top artists. It includes charts for user growth, revenue sources, and top songs.",
     tags: ["React", "Next.js", "TypeScript", "Shadcn", "API Router", "Jest"],
     imageUrl: StreamImg,
     link: "https://streamify-1mgs.vercel.app/",
@@ -115,7 +133,7 @@ export const projectsData = [
   {
     title: "SuperTask",
     description:
-      "Help users track tasks efficiently Provide meaningful organization tools Make task management enjoyable Keep interface simple but powerful The project combines modern React patterns with practical functionality to create a productive task management experience. ",
+      "Help users track tasks efficiently Provide meaningful organization tools Make task management enjoyable Keep interface simple but powerful The project combines modern React patterns with practical functionality. ",
     tags: ["Next.js", "TypeScript", "React", "Shadcn", "Prisma", "postgres"],
     imageUrl: TaskImg,
     link: "https://tasktrek-mki2.vercel.app/",
@@ -142,7 +160,7 @@ export const projectsData = [
   {
     title: "ThreadLink",
     description:
-      "This Next.js user profile feature uses server components for optimized data fetching and SEO, enhancing performance. Its modular design supports user-specific actions like follow status and liked posts, ensuring scalability and a seamless experience.",
+      "This Next.js user profile feature uses server components for optimized data fetching and SEO, enhancing performance. Its modular design supports user-specific actions like follow status and liked posts.",
     tags: ["Next.js", "TypeScript", "React", "Shadcn", "Prisma", "postgres"],
     imageUrl: ThreadImg,
     link: "https://threadlink-6b9f.vercel.app/",
@@ -169,7 +187,7 @@ export const projectsData = [
   {
     title: "MetaVerse",
     description:
-      "While developing this app, I learnt React project architecture, Clean Code practices, and Next.js 13 structure. You'll also enhance your skills in CSS with Tailwind, creating smooth animations and gradients using Framer Motion.",
+      "While developing this app, I learnt React project architecture, Clean Code practices, and Next.js 13 structure. You'll also enhance your skills in CSS with Tailwind, creating smooth animations.",
     tags: ["Next.js", "Framer Motion", "Tailwind CSS"],
     imageUrl: MetaImg,
     link: "https://meta-verse-flame.vercel.app/",
