@@ -148,15 +148,6 @@ export const projectsData = [
   },
 
   {
-    title: "SuperTask",
-    description:
-      "Help users track tasks efficiently Provide meaningful organization tools Make task management enjoyable Keep interface simple but powerful The project combines modern React patterns with practical functionality. ",
-    tags: ["Next.js", "TypeScript", "React", "Shadcn", "Prisma", "postgres"],
-    imageUrl: TaskImg,
-    link: "https://tasktrek-mki2.vercel.app/",
-  },
-
-  {
     title: "SearchLio",
     description:
       "SearchEngine enables you to find clarity and significant results on a large scale by linking queries and results to the overarching objectives of your search.",
@@ -199,15 +190,6 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Shadcn", "Claude AI"],
     imageUrl: AskImg,
     link: "https://market-research-survey-tool.vercel.app/",
-  },
-
-  {
-    title: "MetaVerse",
-    description:
-      "While developing this app, I learnt React project architecture, Clean Code practices, and Next.js 13 structure. You'll also enhance your skills in CSS with Tailwind, creating smooth animations.",
-    tags: ["Next.js", "Framer Motion", "Tailwind CSS"],
-    imageUrl: MetaImg,
-    link: "https://meta-verse-flame.vercel.app/",
   },
 
   {
