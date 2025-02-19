@@ -14,6 +14,7 @@ import StreamImg from "@/public/strm.png";
 import SnapImg from "@/public/snap.png";
 import ChatImg from "@/public/chat.png";
 import cryptImg from "@/public/crypt.png";
+import TymImg from "@/public/tym.png";
 
 export const links = [
   {
@@ -50,24 +51,40 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Front-End Developer",
+    title: "Front-End Developer at GSSOC",
     location: "Delhi, India",
     description:
-      "ed React integration for graphical analysis, improving accuracy by 25%. export process, reducing time by 50% and integrating with accounting tools.",
+      "Lead a team of 30+ volunteers to organise a 3 month long open-source program with 13000+ participants, 300+ mentors and 100+ projects Collaborated with senior guidance to raise awareness about our program on social expenses tracker using added new features to the project and automation The Application provides the functionality to export the transactions in Expense Tracker.",
     icon: React.createElement(FaReact),
     date: "05/2023 - 08/2023",
   },
   {
-    title: "SWE",
+    title: "SWE at HeadStarter AI",
     location: "Remote,USA",
     description:
-      "Developed and deployed five AI projects with React, Next.js, Firebase, Clerk, and Vercel, including a customer support agent using a RAG pipeline with Gemini 1.5 Flash and Pinecone. Launched a SaaS product for dynamic flashcard generation with a Stripe paywall and created a web scraper for Rate My Professor integrated with LangChain and OpenAI.",
+      "Built and deployed 5 AI projects using React, Next.js, Firebase, Clerk, and Vercel, incorporating best software engineering practices such as CI/CD for regression detection and iterative deployment. Collaborated with and led a team of 3 to build and deploy a SaaS product that generates flashcards based on a given topic using the OpenAI API. Developed a RAG-based project with a team of 3 using the OpenAI API and Pinecone that generates responses based on a provided dataset.",
     icon: React.createElement(FaReact),
     date: "07/2024 - 09/2024",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "TimeBank",
+    description:
+      "TimeBank is a modern web application that enables users to exchange services and skills using time as currency. Users can offer their expertise, request services, and build a community based on mutual skill-sharing. ",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "React",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL (with Neon)",
+    ],
+    imageUrl: TymImg,
+    link: "https://timebank-knhl.vercel.app/",
+  },
+
   {
     title: "VocaVista",
     description:
